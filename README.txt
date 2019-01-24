@@ -1,7 +1,6 @@
-Learning Low-Dimensional Temporal Representations with Latent Alignments
+                                Learning Low-Dimensional Temporal Representations with Latent Alignments
 
 
-############################################################################
 
 1. Introduction.
 
@@ -20,13 +19,16 @@ This package includes the prototype MATLAB codes and data for experiments on the
 "UCF101" tested under Linux Ubuntu 16.04.2, Matlab R2018a.
 
 
-############################################################################
+
+
 
 2. License & disclaimer.
 
     The codes and data can be used for research purposes only. This package is strictly for non-commercial academic use only.
 
-############################################################################
+
+
+
 
 3.  Usage & Dependency.
 
@@ -81,7 +83,7 @@ This package contains three subfolders containing codes and data for experiments
 
 
 
-############################################################################
+
 
 4. Notice
 
@@ -89,7 +91,9 @@ This package contains three subfolders containing codes and data for experiments
 
 2) We utilized some toolboxes, data, and codes which are all publicly available. Please also check the license of them if you want to make use of this package.
 
-############################################################################
+
+
+
 
 5. Citations
 
