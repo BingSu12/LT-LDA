@@ -7,7 +7,7 @@
 This package includes the prototype MATLAB codes and data for experiments on the MSR Activity3D dataset, the ChaLearn dataset, and the UCF101 dataset, described in
 
 	"Learning Low-Dimensional Temporal Representations with Latent Alignments"
-	Bing Su and Ying Wu. 2019.
+	Bing Su and Ying Wu. TPAMI, 2019.
 
 	"Learning Low-Dimensional Temporal Representations"
 	Bing Su and Ying Wu. ICML, 2018.
@@ -34,10 +34,10 @@ This package includes the prototype MATLAB codes and data for experiments on the
 
 This package contains three subfolders containing codes and data for experiments on the MSR Activity3D dataset, the ChaLearn dataset, and the UCF101 dataset, respectively.
   
-- Activity3D --- For the 120-dimensional frame-wide features "MSR-DailyActivity3D.mat" provided in "https://www.uow.edu.au/~leiw/" (L. Wang, J. Zhang, L. Zhou, C. Tang, and W. Li, ¡°Beyond covariance: Feature representation with nonlinear kernel matrices,¡± ICCV 2015), we use the proposed LT-LDA to reduce the dimension to 80 and employ Kernelized-COV (J. Cavazza, A. Zunino, M. San Biagio, and V. Murino, ¡°Kernelized covariance for action recognition,¡± ICPR 2016) to perform classification in the subspace.
+- Activity3D --- For the 120-dimensional frame-wide features "MSR-DailyActivity3D.mat" provided in "https://www.uow.edu.au/~leiw/" (L. Wang, J. Zhang, L. Zhou, C. Tang, and W. Li, Â¡Â°Beyond covariance: Feature representation with nonlinear kernel matrices,Â¡Â± ICCV 2015), we use the proposed LT-LDA to reduce the dimension to 80 and employ Kernelized-COV (J. Cavazza, A. Zunino, M. San Biagio, and V. Murino, Â¡Â°Kernelized covariance for action recognition,Â¡Â± ICPR 2016) to perform classification in the subspace.
   
   Dependency:
-     (1) The code for the paper ¡°Beyond Covariance Representation¡±: https://www.uow.edu.au/~leiw/
+     (1) The code for the paper Â¡Â°Beyond Covariance RepresentationÂ¡Â±: https://www.uow.edu.au/~leiw/
      (2) SVM and Kernel Methods Matlab Toolbox: http://asi.insa-rouen.fr/enseignants/~arakoto/toolbox/index.html
      (3) Kernelized-COV: https://www.iit.it/research/39-research/lines/pattern-analysis-and-computer-vision/pavis-code/573-kernelized-covariance-for-action-recognition
   
@@ -51,7 +51,7 @@ This package contains three subfolders containing codes and data for experiments
 
 
 
-- ChaLearn --- For the 100-dimensional frame-wide features provided in "https://bitbucket.org/bfernando/videodarwin" (described in "B. Fernando, E. Gavves, J. O. M., A. Ghodrati, and T. Tuytelaars,¡°Modeling video evolution for action recognition,¡± CVPR, 2015."), we use the proposed LT-LDA to reduce the dimension to 45 and employ rank pooling and the SVM classifier to perform classification in the subspace. Data available at './datamat/' and part of the code for rank pooling are adapted from the data and code by Basura Fernando "https://bitbucket.org/bfernando/videodarwin". We have provided an organized version of the features: https://pan.baidu.com/s/1mjkonfeJMojoUGnMNYpXpw
+- ChaLearn --- For the 100-dimensional frame-wide features provided in "https://bitbucket.org/bfernando/videodarwin" (described in "B. Fernando, E. Gavves, J. O. M., A. Ghodrati, and T. Tuytelaars,Â¡Â°Modeling video evolution for action recognition,Â¡Â± CVPR, 2015."), we use the proposed LT-LDA to reduce the dimension to 45 and employ rank pooling and the SVM classifier to perform classification in the subspace. Data available at './datamat/' and part of the code for rank pooling are adapted from the data and code by Basura Fernando "https://bitbucket.org/bfernando/videodarwin". We have provided an organized version of the features: https://pan.baidu.com/s/1mjkonfeJMojoUGnMNYpXpw
 
   Dependency:
      vlfeat-0.9.18
@@ -65,7 +65,7 @@ This package contains three subfolders containing codes and data for experiments
      
 
 
-- UCF101 --- For the 2048-dimensional deep frame-wide features extracted by the ResNeXt-101 model pre-trained on the Kinetics dataset (K. Hara, H. Kataoka, and Y. Satoh, ¡°Can spatiotemporal 3d cnns retrace the history of 2d cnns and imagenet,¡± CVPR, 2018), we use the proposed LT-LDA to reduce the dimension to 500 and employ mean pooling or rank pooling and the SVM classifier to perform classification in the subspace.
+- UCF101 --- For the 2048-dimensional deep frame-wide features extracted by the ResNeXt-101 model pre-trained on the Kinetics dataset (K. Hara, H. Kataoka, and Y. Satoh, Â¡Â°Can spatiotemporal 3d cnns retrace the history of 2d cnns and imagenet,Â¡Â± CVPR, 2018), we use the proposed LT-LDA to reduce the dimension to 500 and employ mean pooling or rank pooling and the SVM classifier to perform classification in the subspace.
 
   Dependency:
      liblinear-2.21
@@ -99,6 +99,6 @@ This package contains three subfolders containing codes and data for experiments
 
 Please cite the following papers if you use the codes:
 
-1) Bing Su and Ying Wu, "Learning Low-Dimensional Temporal Representations with Latent Alignments," 2019.
+1) Bing Su and Ying Wu, "Learning Low-Dimensional Temporal Representations with Latent Alignments," IEEE Trans. on Pattern Analysis and Machine Intelligence, 2019.
 
 2) Bing Su and Ying Wu, "Learning Low-Dimensional Temporal Representations," International Conference on Machine Learning, 2018.
